@@ -1,0 +1,15 @@
+.coffeeTablebookImage{
+    object-fit: contain;
+    width: 90vw;
+    height: auto;
+    align-self: center;
+    margin: auto;
+
+
+}
+.coffeeTablebookContainer{
+    margin: auto;
+    object-fit: contain;
+    align-self: center;
+    
+}

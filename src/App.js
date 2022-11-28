@@ -7,6 +7,7 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Gallery from './pages/gallery/Gallery';
 import Auxuwi from './pages/auxuwi/Auxuwi';
+import CoffeeTablebook from './pages/coffeeTablebook/CoffeeTablebook';
 
 const Home = () => {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery></Gallery>} />
         <Route path='/auxuwi' element={<Auxuwi></Auxuwi>}></Route>
+        <Route
+          path='/coffee-table'
+          element={<CoffeeTablebook></CoffeeTablebook>}
+        ></Route>
       </Routes>
     </div>
   );

@@ -11,7 +11,7 @@ export default function Header({ styles }) {
     { name: 'NOSOTROS', path: '/about' },
     { name: 'GALERÍA', path: '/gallery' },
     { name: 'AUXUWI', path: '/auxuwi' },
-    { name: 'COFEE TABLE', path: '/cofee-table' },
+    { name: 'COFFEE TABLE', path: '/coffee-table' },
   ];
   return (
     <nav className='App-nav' style={styles}>
