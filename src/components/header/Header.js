@@ -15,7 +15,9 @@ export default function Header({ styles }) {
   ];
   return (
     <nav className='App-nav' style={styles}>
-      <img src={require('../../assets/images/logo.png')}></img>
+      <Link to={'/'}>
+        <img src={require('../../assets/images/logo.png')}></img>
+      </Link>
       <ul>
         {pages.map((page, index) => {
           return (
