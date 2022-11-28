@@ -1,0 +1,90 @@
+.artContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.artImage{
+    flex:1;
+    object-fit: contain;
+    min-width: 400px;
+    max-width: 70%;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+
+.artTextContainer{
+    width: 50%;
+    margin-left: 40px;
+    min-width: 600px;
+    display: inline-block;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+h1 {
+    font-size: 5rem;
+    color: #5e5a1d;
+    text-align: left;
+    margin: 10;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+h2 {
+    font-size: 3rem;
+    color: #5e5a1d;
+    text-align: left;
+    margin: 10;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: -60px;
+
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.editionsContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.editionsImageContainer{
+    align-items: center;
+justify-content: center;
+
+}
+.editionsImage {
+    object-fit: contain;
+    display: inline-block;
+}
+h3 {
+    font-size: 3rem;
+    color: #5e5a1d;
+    text-align: center;
+    margin: 10;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
