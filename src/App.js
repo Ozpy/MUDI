@@ -25,7 +25,6 @@ function App() {
         <Route path='/gallery' element={<Gallery></Gallery>} />
         <Route path='/auxuwi' element={<Auxuwi></Auxuwi>}></Route>
       </Routes>
-      <footer></footer>
     </div>
   );
 }

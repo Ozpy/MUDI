@@ -3,7 +3,8 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-
+    position: relative ;
+    bottom: 0px;
 }
 .footer_textContainer{
     flex-direction: row;

@@ -9,7 +9,7 @@ export default function PrimaryLayout({
   imageBackground = require('../../assets/images/bg_Home.jpg'),
 }) {
   return (
-    <div>
+    <div style={{ flex: 1 }}>
       <Header
         styles={{
           backgroundColor: headerColor,
